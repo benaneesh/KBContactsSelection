@@ -45,4 +45,9 @@
     NSLog(@"Removed contact: %@", [contact fullName]);
 }
 
+- (void) finishedReloading
+{
+    NSLog(@"Finished loading the data");
+}
+
 @end

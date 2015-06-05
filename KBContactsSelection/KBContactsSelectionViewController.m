@@ -161,4 +161,11 @@
     }
 }
 
+- (void) finishedReloading
+{
+    if ([_delegate respondsToSelector:@selector(finishedReloading)]) {
+        [_delegate finishedReloading];
+    }
+}
+
 @end

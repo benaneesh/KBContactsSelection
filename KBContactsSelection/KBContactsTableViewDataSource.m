@@ -127,6 +127,7 @@ static NSString *cellIdentifier = @"KBContactCell";
     [self prepareInitials];
     
     [_tableView reloadData];
+    [_delegate finishedReloading];
     _tableView.tableHeaderView = nil;
 }
 

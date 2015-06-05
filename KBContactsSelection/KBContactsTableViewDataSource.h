@@ -16,6 +16,7 @@
 @optional
 - (void) didSelectContact:(APContact *)contact;
 - (void) didRemoveContact:(APContact *)contact;
+- (void) finishedReloading;
 @end
 
 
